@@ -6,6 +6,17 @@ Speaker roles should make imported tracks behave predictably across presets, can
 
 A creator should be able to map each imported track to a clear podcast role, then trust the product to place and label each speaker correctly throughout the episode.
 
+## Relationship To Episode Setup
+
+Speaker role mapping should stay connected to the creator-facing workflow that already uses those roles:
+
+- imported speaker buckets from `docs/episode-ingest-readiness.md`
+- preset preview and first-look layout decisions from `docs/preset-style-picker.md`
+- speaker labels in captions from `docs/speaker-attribution-review.md`
+- reusable role behavior in future episodes from `docs/show-template-adaptation.md`
+
+Role confirmation should happen before presets, captions, or template adaptation depend on the wrong speaker identity. This keeps role mapping inside episode setup instead of turning it into a detached track-management screen.
+
 ## Core Roles
 
 Use simple role options:
